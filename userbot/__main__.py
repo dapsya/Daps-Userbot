@@ -20,10 +20,10 @@ from pytgcalls import idle
 from telethon import version
 from telethon.tl.alltlobjects import LAYER
 
-from AyiinXd import BOT_TOKEN
-from AyiinXd import BOT_VER as ubotversion
-from AyiinXd import BOTLOG_CHATID, LOGS, LOOP, bot
-from AyiinXd.clients import ayiin_userbot_on, multiayiin
+from userbot import BOT_TOKEN
+from userbot import BOT_VER as ubotversion
+from userbot import BOTLOG_CHATID, LOGS, LOOP, bot
+from userbot.clients import ayiin_userbot_on, multiayiin
 from AyiinXd.core.git import git
 from AyiinXd.modules import ALL_MODULES
 from AyiinXd.ayiin import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
