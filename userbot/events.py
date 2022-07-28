@@ -16,7 +16,7 @@ from traceback import format_exc
 
 from telethon import events
 
-from AyiinXd import CMD_HANDLER, CMD_LIST, DEFAULT, DEVS, AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYIIN9, AYIIN10, bot
+from userbot import CMD_HANDLER, CMD_LIST, DEFAULT, DEVS, AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYIIN9, AYIIN10, bot
 
 
 def ayiin_cmd(pattern=None, command=None, **args):
