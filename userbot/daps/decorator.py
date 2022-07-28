@@ -21,7 +21,7 @@ from telethon.errors import (
     MessageNotModifiedError,
 )
 
-from AyiinXd import (
+from userbot import (
     BL_CHAT,
     CMD_HANDLER,
     CMD_LIST,
