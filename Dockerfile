@@ -1,10 +1,10 @@
 #==============×==============#
 #      Created by: Alfa-Ex
-#=========× AyiinXd ×=========#
+#=========× Dapsya ×=========#
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b userbot https://github.com/dapsya/userbot /home/userbot/ \
+RUN git clone -b userbot https://github.com/dapsya/Daps-Userbot /home/userbot/ \
     && chmod 777 /home/userbot \
     && mkdir /home/userbot/bin/
 
