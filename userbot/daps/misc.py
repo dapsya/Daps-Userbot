@@ -20,8 +20,8 @@ from PIL import Image
 from telethon.tl import types
 from telethon.utils import get_display_name, get_peer_id
 
-from AyiinXd import DEVS, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import runcmd
+from userbot import DEVS, TEMP_DOWNLOAD_DIRECTORY
+from userbot.ayiin import runcmd
 
 
 async def async_searcher(
