@@ -28,7 +28,7 @@ import urllib3
 
 from random import choice
 
-from AyiinXd import HEROKU_API_KEY, HEROKU_APP_NAME, LOGS
+from AyiinXd import HEROKU_API_KEY, HEROKU_APP_NAME
 
 from ._baseyins import AyiinDB
 
@@ -80,6 +80,7 @@ if HOSTED_ON == "heroku":
 
         app = None
 
+
 def simple_usage():
 
     try:
@@ -127,6 +128,7 @@ def simple_usage():
         disk,
 
     )
+
 
 async def heroku_usage():
 
@@ -270,6 +272,7 @@ async def heroku_usage():
 
     )
 
+
 def db_usage():
 
     adB = AyiinDB()
@@ -295,6 +298,7 @@ def db_usage():
     b = str(round((used / total) * 100, 2)) + "%"
 
     return f"**{adB.name}**\n\n**Storage Used**: `{a}`\n**Usage percentage**: **{b}**"
+
 
 async def get_full_usage():
 

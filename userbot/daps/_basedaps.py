@@ -66,9 +66,11 @@ except ImportError:
 
     if DB_URI:
 
-        LOGS.warning("'psycopg2' not found!\nInstall psycopg2 to use SQL database..")
+        LOGS.warning(
+            "'psycopg2' not found!\nInstall psycopg2 to use SQL database..")
 
 # --------------------------------------------------------------------------------------------- #
+
 
 def get_data(self_, key):
 
@@ -88,23 +90,23 @@ def get_data(self_, key):
 
 # --------------------------------------------------------------------------------------------- #
 
+
 MONGO_URI = os.environ.get("MONGO_URI", None)
 
 REDIS_URI = (
-
-    sys.argv[4]
-
-    if len(sys.argv) > 4
-
-    else (os.environ.get("REDIS_URI", None) or os.environ.get("REDIS_URL", None))
-
-)
+    sys.argv[4] if len(
+        sys.argv) > 4 else (
+            os.environ.get(
+                "REDIS_URI",
+                None) or os.environ.get(
+                    "REDIS_URL",
+                None)))
 
 REDIS_PASSWORD = (
-
-    sys.argv[5] if len(sys.argv) > 5 else os.environ.get("REDIS_PASSWORD", None)
-
-)
+    sys.argv[5] if len(
+        sys.argv) > 5 else os.environ.get(
+            "REDIS_PASSWORD",
+        None))
 
 REDISHOST = os.environ.get("REDISHOST", None)
 
@@ -113,6 +115,7 @@ REDISPASSWORD = os.environ.get("REDISPASSWORD", None)
 REDISPORT = os.environ.get("REDISPORT", None)
 
 REDISUSER = os.environ.get("REDISUSER", None)
+
 
 class MongoDB:
 
@@ -129,13 +132,11 @@ class MongoDB:
         return f"<Ayiin.MonGoDB\n -total_keys: {len(self.keys())}\n>"
 
     @property
-
     def name(self):
 
         return "Mongo"
 
     @property
-
     def usage(self):
 
         return self.db.command("dbstats")["dataSize"]
@@ -228,6 +229,7 @@ class MongoDB:
 
 # Please use https://elephantsql.com/ !
 
+
 class SqlDB:
 
     def __init__(self, url):
@@ -267,13 +269,11 @@ class SqlDB:
         self.re_cache()
 
     @property
-
     def name(self):
 
         return "SQL"
 
     @property
-
     def usage(self):
 
         self._cursor.execute(
@@ -350,7 +350,8 @@ class SqlDB:
 
         try:
 
-            self._cursor.execute(f"ALTER TABLE Ayiin DROP COLUMN IF EXISTS {key}")
+            self._cursor.execute(
+                f"ALTER TABLE Ayiin DROP COLUMN IF EXISTS {key}")
 
         except (psycopg2.errors.UndefinedColumn, psycopg2.errors.SyntaxError):
 
@@ -364,7 +365,8 @@ class SqlDB:
 
         self._cursor.execute(f"ALTER TABLE Ayiin ADD {key} TEXT")
 
-        self._cursor.execute(f"INSERT INTO Ayiin ({key}) values (%s)", (str(value),))
+        self._cursor.execute(
+            f"INSERT INTO Ayiin ({key}) values (%s)", (str(value),))
 
         return True
 
@@ -415,6 +417,7 @@ class SqlDB:
         return 1
 
 # --------------------------------------------------------------------------------------------- #
+
 
 class RedisDB:
 
@@ -482,7 +485,8 @@ class RedisDB:
 
             for vars_ in os.environ:
 
-                if vars_.startswith("QOVERY_REDIS_") and vars.endswith("_HOST"):
+                if vars_.startswith(
+                        "QOVERY_REDIS_") and vars.endswith("_HOST"):
 
                     var = vars_
 
@@ -496,7 +500,8 @@ class RedisDB:
 
                 kwargs["port"] = os.environ(f"QOVERY_REDIS_{hash_}_PORT")
 
-                kwargs["password"] = os.environ(f"QOVERY_REDIS_{hash_}_PASSWORD")
+                kwargs["password"] = os.environ(
+                    f"QOVERY_REDIS_{hash_}_PASSWORD")
 
         self.db = Redis(**kwargs)
 
@@ -523,13 +528,11 @@ class RedisDB:
             self._cache.update({keys: self.get_key(keys)})
 
     @property
-
     def name(self):
 
         return "Redis"
 
     @property
-
     def usage(self):
 
         return sum(self.db.memory_usage(x) for x in self.keys())
@@ -571,6 +574,7 @@ class RedisDB:
         return bool(self.delete(str(key)))
 
 # --------------------------------------------------------------------------------------------- #
+
 
 def AyiinDB():
 

@@ -20,6 +20,7 @@
 
 import os
 
+
 def where_hosted():
 
     if os.getenv("DYNO"):
@@ -47,6 +48,7 @@ def where_hosted():
         return "termux"
 
     return "local"
+
 
 HOSTED_ON = where_hosted()
 
