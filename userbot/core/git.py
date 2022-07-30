@@ -6,7 +6,7 @@ from typing import Tuple
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 
-from AyiinXd import LOGS, branch
+from userbot import LOGS, branch
 
 
 def install_req(cmd: str) -> Tuple[str, str, int, int]:
