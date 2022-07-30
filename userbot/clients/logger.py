@@ -10,14 +10,14 @@ import asyncio
 from telethon.tl.functions.channels import EditAdminRequest, InviteToChannelRequest
 from telethon.tl.types import ChatAdminRights
 
-from AyiinXd import BOT_VER as version
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYIIN9, AYIIN10, bot, branch, tgbot
-from AyiinXd.ayiin import checking
+from userbot import BOT_VER as version
+from userbot import BOTLOG_CHATID
+from userbot import CMD_HANDLER as cmd
+from userbot import AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYIIN9, AYIIN10, bot, branch, tgbot
+from userbot.ayiin import checking
 
 MSG_ON = """
-❏  ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏  ᴅᴀᴘs-ᴜsᴇʀʙᴏʏ ʙᴇʀʜᴀsɪʟ ʏᴀ ɴɢᴇɴᴛᴏᴛ
 ╭╼┅━━━━━╍━━━━━┅╾
 ├▹ ᴜsᴇʀʙᴏᴛ ᴠᴇʀsɪᴏɴ - {}
 ├▹ @{}
