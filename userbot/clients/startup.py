@@ -9,9 +9,9 @@ import sys
 
 from telethon.utils import get_peer_id
 
-from AyiinXd import BOT_TOKEN
-from AyiinXd import BOT_VER as version
-from AyiinXd import (
+from userbot import BOT_TOKEN
+from userbot import BOT_VER as version
+from userbot import (
     DEFAULT,
     DEVS,
     LOGS,
@@ -40,7 +40,7 @@ from AyiinXd import (
     call_py,
     tgbot,
 )
-from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
+from userbot.modules.gcast import GCAST_BLACKLIST as GBL
 
 EOL = "EOL\nMan-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
 MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nMan-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
