@@ -1,4 +1,4 @@
-from AyiinXd.modules.sql_helper.global_collectionjson import get_collection
+from userbot.modules.sql_helper.global_collectionjson import get_collection
 
 
 def blacklist_chats_list():
