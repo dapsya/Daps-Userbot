@@ -1,11 +1,11 @@
  <h1 align="center">✨ 𝐃𝐀𝐏𝐒 𝐔𝐒𝐄𝐑𝐁𝐎𝐘 ✨</h1>
 
-<a href="https://github.com/dapsya/userbot/commits"> <img src="https://img.shields.io/github/last-commit/inisenja/Senja-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/dapsya/userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/dapsya/userbot/graphs/commit-activity)
+<a href="https://github.com/dapsya/Daps-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/dapsya/Daps-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/dapsya/Daps-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/dapsya/Daps-Userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/dapsya/userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/inisenja/Senja-Userbot?&logo=github)](https://github.com/dapsya/userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/inisenja/Senja-Userbot?&logo=github)](https://github.com/dapsya/userbot/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/inisenja/Senja-Userbot?&logo=github)](https://github.com/dapsya/Daps-Usrerbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/inisenja/Senja-Userbot?&logo=github)](https://github.com/dapsya/Daps-Userbot/stargazers)
 
 
 <p align="center">
@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/dapsya/userbot`
+ • `git clone https://github.com/dapsya/Daps-Userbot`
 
- • `cd daps userbot`
+ • `cd Daps-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S daps userbot`
+ • `screen -S Daps-Userbot`
 
  • `bash start`
 
@@ -71,7 +71,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/dapsya/userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/dapsya/Daps-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
