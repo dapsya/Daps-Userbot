@@ -254,7 +254,7 @@ def load_module(shortname):
         mod.logger = logging.getLogger(shortname)
         spec.loader.exec_module(mod)
         # for imports
-        sys.modules["AyiinXd.modules." + shortname] = mod
+        sys.modules["userbot.modules." + shortname] = mod
         LOGS.info("Successfully imported " + shortname)
 
 
@@ -276,7 +276,7 @@ def start_assistant(shortname):
         mod = importlib.util.module_from_spec(spec)
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
-        sys.modules["AyiinXd.modules.assistant" + shortname] = mod
+        sys.modules["userbot.modules.assistant" + shortname] = mod
         LOGS.info("Assistant Successfully imported" + shortname)
 
 
