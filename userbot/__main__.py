@@ -30,7 +30,7 @@ from userbot.ayiin import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
 
 try:
     for module_name in ALL_MODULES:
-        imported_module = import_module(f"AyiinXd.modules.{module_name}")
+        imported_module = import_module(f"userbot.modules.{module_name}")
     adB = AyiinDB()
     client = multiayiin()
     total = 10 - client
