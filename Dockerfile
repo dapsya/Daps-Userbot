@@ -2,7 +2,7 @@
 #      Created by: Alfa-Ex
 #=========× Dapsya ×=========#
 
-FROM userbot/Daps-Userbot:buster
+FROM ayiinxd/ayiin-userbot:buster
 
 RUN git clone -b userbot https://github.com/dapsya/Daps-Userbot /home/userbot/ \
     && chmod 777 /home/userbot \
