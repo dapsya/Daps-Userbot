@@ -499,7 +499,7 @@ async def update_restart_msg(chat_id, msg_id):
 
 
 try:
-    from AyiinXd.modules.sql_helper.globals import delgvar, gvarstatus
+    from userbot.modules.sql_helper.globals import delgvar, gvarstatus
 
     chat_id, msg_id = gvarstatus("restartstatus").split("\n")
     with bot:
