@@ -35,14 +35,14 @@ async def gen_thumb(thumbnail, title, videoid, ctitle):
     image6 = image4.convert("RGBA")
     Image.alpha_composite(image5, image6).save(
         f"userbot/resources/temp{videoid}.png")
-    img = Image.open(f"AyiinXd/resources/temp{videoid}.png")
+    img = Image.open(f"userbot/resources/temp{videoid}.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("AyiinXd/resources/Roboto-Light.ttf", 52)
-    font2 = ImageFont.truetype("AyiinXd/resources/Roboto-Medium.ttf", 76)
+    font = ImageFont.truetype("userbot/resources/Roboto-Light.ttf", 52)
+    font2 = ImageFont.truetype("userbot/resources/Roboto-Medium.ttf", 76)
     draw.text((27, 538), f"Playing on {ctitle[:15]}...", (0, 0, 0), font=font)
     draw.text((27, 612), f"{title[:20]}...", (0, 0, 0), font=font2)
-    img.save(f"AyiinXd/resources/final{videoid}.png")
-    os.remove(f"AyiinXd/resources/temp{videoid}.png")
-    os.remove(f"AyiinXd/resources/thumb{videoid}.png")
-    final = f"AyiinXd/resources/final{videoid}.png"
+    img.save(f"userbot/resources/final{videoid}.png")
+    os.remove(f"userbot/resources/temp{videoid}.png")
+    os.remove(f"userbot/resources/thumb{videoid}.png")
+    final = f"userbot/resources/final{videoid}.png"
     return final
