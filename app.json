@@ -3,7 +3,7 @@
   "description": "[Daps-userbot] Userbot Hanya Untuk Bersenang - Senang",
   "logo": "https://telegra.ph/file/798bfa928284f3c4d90ae.jpg",
   "keywords": ["telegram", "userbot", "Daps userboy", "modular", "python"],
-  "repository": "https://github.com/dapsya/userbot",
+  "repository": "https://github.com/dapsya/Daps-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
