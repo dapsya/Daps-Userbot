@@ -737,7 +737,7 @@ with bot:
                                 "https://t.me/privatedap"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/dapsya/userbot"),
+                                "https://github.com/dapsya/Daps-Userbot"),
                         ],
                     ],
                     link_preview=False,
