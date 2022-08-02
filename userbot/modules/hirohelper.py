@@ -7,9 +7,9 @@ from userbot.utils import edit_or_reply, hiro_cmd
 async def usit(e):
     await edit_or_reply(e,
                         f"**Halo {owner} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{cmd}help` Atau Bisa Minta Bantuan Ke:\n"
-                        "\n[Telegram](t.me/Bisubiarenak)"
-                        "\n[Repo](https://github.com/UserbotMaps/Hiroshi-Userbot)"
-                        "\n[Instagram](instagram.com/ismail.neey)")
+                        "\n[Telegram](t.me/Itsdaps)"
+                        "\n[Repo](https://github.com/dapsya/Daps-Userbot)"
+                        "\n[Instagram](xnxx.com)")
 
 
 @hiro_cmd(pattern="vars$")
@@ -22,7 +22,7 @@ async def var(m):
 CMD_HELP.update({
     "helper":
     f"`{cmd}lhelp`\
-\nUsage: Bantuan Untuk Hiroshi-Userbot.\
+\nUsage: Bantuan Untuk Daps-Userbot.\
 \n`{cmd}vars`\
 \nUsage: Melihat Daftar Vars."
 })
