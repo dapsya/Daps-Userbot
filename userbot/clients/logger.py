@@ -14,7 +14,7 @@ from userbot import BOT_VER as version
 from userbot import BOTLOG_CHATID
 from userbot import CMD_HANDLER as cmd
 from userbot import AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYIIN9, AYIIN10, bot, branch, tgbot
-from userbot.ayiin import checking
+from userbot.daps import checking
 
 MSG_ON = """
 ❏  ᴅᴀᴘs-ᴜsᴇʀʙᴏʏ ʙᴇʀʜᴀsɪʟ ʏᴀ ɴɢᴇɴᴛᴏᴛ
