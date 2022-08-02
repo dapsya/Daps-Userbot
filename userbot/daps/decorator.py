@@ -45,7 +45,7 @@ from userbot import (
 from .toolsyins import eod, eor
 
 
-def ayiin_cmd(
+def hiro_cmd(
     pattern: str = None,
     allow_sudo: bool = True,
     group_only: bool = False,
