@@ -576,7 +576,7 @@ with bot:
         from userbot.modules.sql_helper.bot_blacklists import check_is_black_list
         from userbot.modules.sql_helper.bot_pms_sql import add_user_to_db, get_user_id
         from userbot.modules.sql_helper.globals import addgvar, delgvar, gvarstatus
-        from userbot.ayiin import AyiinDB, HOSTED_ON, reply_id
+        from userbot.daps import AyiinDB, HOSTED_ON, reply_id
         from Stringyins import get_languages, get_string, language
 
         adB = AyiinDB()
