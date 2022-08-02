@@ -201,7 +201,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ ᴅᴀᴘs ᴜsᴇʀʙᴏʏ")
+    "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ ᴅᴀᴘs ᴜsᴇʀʙᴏᴛ")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "daps")
@@ -831,7 +831,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ᴅᴀᴘs ᴜsᴇʀʙᴏʏ ✨",
+                    title="✨ ᴅᴀᴘs ᴜsᴇʀʙᴏᴛ ✨",
                     description="Daps - userbot | Telethon",
                     url="https://t.me/bombleebas",
                     thumb=InputWebDocument(
@@ -839,7 +839,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Daps-userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @bombleebas\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**ᴅᴀᴘs ᴜsᴇʀʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @bombleebas\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
