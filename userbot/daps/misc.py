@@ -21,7 +21,7 @@ from telethon.tl import types
 from telethon.utils import get_display_name, get_peer_id
 
 from userbot import DEVS, TEMP_DOWNLOAD_DIRECTORY
-from userbot.ayiin import runcmd
+from userbot.daps import runcmd
 
 
 async def async_searcher(
@@ -195,7 +195,7 @@ async def create_quotly(
 async def Carbon(
     code,
     base_url="https://carbonara-42.herokuapp.com/api/cook",
-    file_name="Ayiin-Userbot",
+    file_name="Daps-Userbot",
     **kwargs,
 ):
     kwargs["code"] = code
