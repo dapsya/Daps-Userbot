@@ -11,7 +11,7 @@
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 from userbot import CMD_HELP, CMD_HANDLER as cmd
-from userbot.utils import edit_or_reply, edit_delete, hiro_cmd
+from userbot.daps import hiro_cmd, eod, eor
 from userbot.events import register
 
 # KALO FORK/CLONE ID GC DI BAWAH G USH DI HAPUSS YAA KONTOLL
