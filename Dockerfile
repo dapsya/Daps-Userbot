@@ -4,7 +4,7 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b userbot https://github.com/dapsya/Daps-Userbot /home/userbot/ \
+RUN git clone -b Daps-Userbot https://github.com/dapsya/Daps-Userbot /home/userbot/ \
     && chmod 777 /home/userbot \
     && mkdir /home/userbot/bin/
 
