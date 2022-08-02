@@ -5,7 +5,7 @@ from typing import Any, Callable
 
 from motor.frameworks.asyncio import _EXECUTOR
 
-from userbot.ayiin.logger import logging
+from userbot.daps.logger import logging
 
 _LOG = logging.getLogger(__name__)
 _LOG_STR = "<<<[  %s  ]>>>"
