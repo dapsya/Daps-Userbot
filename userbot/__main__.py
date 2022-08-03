@@ -28,7 +28,7 @@ from userbot.clients.logger import ayiin_userbot_on
 from userbot.clients.startup import multiayiin
 from userbot.core.git import git
 from userbot.modules import ALL_MODULES
-from userbot.daps._hosting HOSTED_ON
+from userbot.daps._hosting import HOSTED_ON
 from userbot.daps._baseyins import AyiinDB
 from userbot.daps import autobot, autopilot, ayiin_version
 
