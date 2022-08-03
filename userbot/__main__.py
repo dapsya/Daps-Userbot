@@ -23,7 +23,8 @@ from telethon.tl.alltlobjects import LAYER
 from userbot import BOT_TOKEN
 from userbot import BOT_VER as ubotversion
 from userbot import BOTLOG_CHATID, LOGS, LOOP, bot
-from userbot.clients import ayiin_userbot_on, multiayiin
+from .logger import ayiin_userbot_on
+from .startup import multiayiin
 from userbot.core.git import git
 from userbot.modules import ALL_MODULES
 from userbot.utils import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
