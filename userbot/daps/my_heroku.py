@@ -28,9 +28,9 @@ import urllib3
 
 from random import choice
 
-from AyiinXd import HEROKU_API_KEY, HEROKU_APP_NAME
+from userbot import HEROKU_API_KEY, HEROKU_APP_NAME
 
-from ._baseyins import AyiinDB
+from ._basedaps import AyiinDB
 
 from ._hosting import HOSTED_ON
 
