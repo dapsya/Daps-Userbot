@@ -26,7 +26,7 @@ from userbot import BOTLOG_CHATID, LOGS, LOOP, bot
 from userbot.clients import ayiin_userbot_on, multiayiin
 from userbot.core.git import git
 from userbot.modules import ALL_MODULES
-from userbot.daps import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
+from userbot.utils import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
 
 try:
     for module_name in ALL_MODULES:
