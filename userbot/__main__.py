@@ -28,8 +28,8 @@ from userbot.clients.logger import ayiin_userbot_on
 from userbot.clients.startup import multiayiin
 from userbot.core.git import git
 from userbot.modules import ALL_MODULES
-from userbot.daps import AyiinDB, HOSTED_ON
-from userbot.daps import autobot, autopilot, ayiin_version
+from userbot.daps import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
+
 
 try:
     for module_name in ALL_MODULES:
